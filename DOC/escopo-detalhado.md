@@ -1,3 +1,5 @@
+[⬅ Voltar para o README](../README.md)
+
 # Escopo Detalhado
 
 ## Módulo Público

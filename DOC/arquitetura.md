@@ -1,3 +1,5 @@
+[⬅ Voltar para o README](../README.md)
+
 # Arquitetura do Sistema
 
 ## Visão Geral

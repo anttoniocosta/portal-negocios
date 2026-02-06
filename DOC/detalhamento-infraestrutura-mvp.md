@@ -1,3 +1,5 @@
+[🏠 Voltar para o README](../README.md)
+[⬅ Voltar para Estimativas](./estimativas-cronograma.md)
 
 # Detalhamento de Infraestrutura – MVP (~R$ 500/mês)
 

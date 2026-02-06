@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./Logo_portalNegocios.png" alt="Logo Portal de Negócios" width="300">
+</p>
+
 # Portal de Negócios
 
 Plataforma digital para negociação de ativos de alto valor, como **imóveis, empresas, fazendas e veículos**, permitindo **compra, venda ou locação em um único ambiente**.

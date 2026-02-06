@@ -1,3 +1,5 @@
+[🏠 Voltar para o README](../README.md)
+
 # Planejamento do Projeto – Portal de Serviços
 
 ## Visão Geral

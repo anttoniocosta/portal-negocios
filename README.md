@@ -31,8 +31,23 @@ A documentação completa está organizada nos arquivos abaixo:
 - 📌 [Planejamento do Projeto](DOC/planejamento.md)
 - 🏗️ [Arquitetura da Solução](DOC/arquitetura.md)
 - 🔄 [Fluxos do Sistema](DOC/fluxos.md)
+- 📝 [Funcionalidades](DOC/funcionalidades-user-stories.md)
 - 📝 [Escopo Detalhado](DOC/escopo-detalhado.md)
 - 📊 [Estimativas e Cronograma](DOC/estimativas-cronograma.md)
+
+---
+
+### 📑 Fluxogramas (PDF)
+
+- 📄 [Administrador](DOC/PDF/fluxograma-administrador.pdf)
+- 📄 [Comprador / Vendedor](DOC/PDF/fluxograma-comprador-vendedor.pdf)
+- 📄 [Consultor](DOC/PDF/fluxograma-consultor.pdf)
+
+---
+
+### 📑 Diagramas (PDF)
+
+- 📄 [Modelo Relacional do Banco de Dados](DOC/PDF/modelo-relacional.pdf)
 
 ---
 

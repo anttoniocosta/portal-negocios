@@ -5,9 +5,9 @@
 ## Visão Geral
 Arquitetura em três camadas:
 
-1. Frontend (Next.js / React)
-2. Backend (API Node.js)
-3. Banco de Dados (PostgreSQL, Redis, Storage)
+1. Frontend (Next.js / React / Vue.js)
+2. Backend (API Node.js / C#.net)
+3. Banco de Dados (PostgreSQL, SQLSERVER, MongoDB, MySQL, Redis, Storage)
 
 ## Componentes
 - Autenticação JWT
@@ -19,7 +19,7 @@ Arquitetura em três camadas:
 ## Infraestrutura
 - Frontend: Vercel
 - Backend: Railway ou AWS
-- Banco: PostgreSQL
+- Banco: PostgreSQL / SQLSERVER / MySQL / MongoDB
 - Storage: S3 ou Cloudflare R2
 
 ## Boas práticas

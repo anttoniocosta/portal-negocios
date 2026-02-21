@@ -31,7 +31,7 @@ O sistema será desenvolvido com foco em sustentabilidade operacional e monetiza
 - Permitir monetização via:
   - Comissão por fechamento
   - Fee fixo por segmento
-  - Impulsionamento de ativos (fase posterior)
+  - Impulsionamento de ativos
 - Garantir rastreabilidade completa das negociações
 - Sustentar modelo financeiro auditável
 
@@ -89,7 +89,7 @@ Os fluxos detalhados estão documentados em:
 - Pré-cadastro de ativo
 - Workflow de aprovação
 - Gestão de ativos
-- Impulsionamento (fase futura)
+- Impulsionamento
 
 ## 4.4 Módulo Consultor
 - Gestão de ativos atribuídos

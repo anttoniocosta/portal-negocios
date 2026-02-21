@@ -1,211 +1,226 @@
 [⬅ Voltar para o README](../README.md)
 
-# Funcionalidades / User Stories
+# Funcionalidades / User Stories  
+Portal de Negócios – Fase 1
 
-## Administrador
+Este documento descreve as funcionalidades do sistema organizadas por perfil de usuário, alinhadas aos fluxos operacionais definidos.
 
-### Segmentos
+---
 
--   [ ] Como administrador, quero criar um novo segmento de ativos para
-    que ativos possam ser classificados corretamente na plataforma.
--   [ ] Como administrador, quero editar um segmento existente para
-    ajustar sua estrutura conforme evolução do negócio.
--   [ ] Como administrador, quero inativar um segmento para impedir
-    novos cadastros naquele tipo.
+# ADMINISTRADOR
+**Alinhado ao fluxo do PDF** [⬅ ver mais detalhes...](./PDF/fluxograma-administra.md)
 
-------------------------------------------------------------------------
 
-### Campos Dinâmicos por Segmento
+## 1. Segmentos
 
--   [ ] Como administrador, quero criar campos dinâmicos vinculados a um
-    segmento para customizar as informações obrigatórias de cada tipo de
-    ativo.
--   [ ] Como administrador, quero definir o tipo do campo (texto,
-    número, select, data, etc.) para estruturar corretamente os dados.
--   [ ] Como administrador, quero definir se o campo é obrigatório ou
-    opcional para controlar a qualidade das informações.
--   [ ] Como administrador, quero ativar ou inativar um campo dinâmico
-    para manter a estrutura atualizada.
--   [ ] Como administrador, quero editar um campo dinâmico para manter a
-    estrutura atualizada.
--   [ ] Como administrador, quero remover um campo dinâmico para manter
-    a estrutura atualizada.
+- [ ] Como administrador, quero criar um novo segmento para organizar ativos por categoria.
+- [ ] Como administrador, quero editar um segmento para ajustar sua estrutura.
+- [ ] Como administrador, quero inativar um segmento para impedir novos cadastros.
+- [ ] Como administrador, quero definir regras financeiras por segmento.
+- [ ] Como administrador, quero configurar comissão do portal por segmento.
+- [ ] Como administrador, quero configurar comissão do consultor por segmento.
+- [ ] Como administrador, quero definir fee fixo por segmento.
 
-------------------------------------------------------------------------
+---
 
-### Opções de Campos Dinâmicos (Select)
+## 2. Campos Dinâmicos
 
--   [ ] Como administrador, quero cadastrar opções de um campo dinâmico
-    do tipo select para padronizar escolhas do usuário.
--   [ ] Como administrador, quero editar uma opção dinâmica para
-    corrigir ou melhorar a nomenclatura exibida.
--   [ ] Como administrador, quero remover uma opção dinâmica para manter
-    as opções atualizadas.
+- [ ] Como administrador, quero criar campos dinâmicos por segmento.
+- [ ] Como administrador, quero definir tipo do campo (texto, número, select, data).
+- [ ] Como administrador, quero definir campo obrigatório/opcional.
+- [ ] Como administrador, quero ativar/inativar campo.
+- [ ] Como administrador, quero editar campo.
+- [ ] Como administrador, quero remover campo.
 
-------------------------------------------------------------------------
+### Select Dinâmico
 
-### Regras de Comissão e Fee
+- [ ] Como administrador, quero cadastrar opções de select.
+- [ ] Como administrador, quero editar opções.
+- [ ] Como administrador, quero remover opções.
 
--   [ ] Como administrador, quero definir percentual de comissão por
-    segmento para automatizar o cálculo financeiro.
--   [ ] Como administrador, quero definir fee fixo adicional por
-    segmento para ajustar a monetização da plataforma.
--   [ ] Como administrador, quero ativar ou inativar uma regra de
-    comissão para controlar a regra vigente.
--   [ ] Como administrador, quero alterar regras de comissão no futuro
-    para adaptar o modelo de negócio.
+---
 
-------------------------------------------------------------------------
+## 3. Contratos
 
-### Cadastro de Contratos
+- [ ] Como administrador, quero cadastrar contratos padrão.
+- [ ] Como administrador, quero editar contrato.
+- [ ] Como administrador, quero ativar/inativar contrato.
+- [ ] Como administrador, quero vincular contrato a segmento.
+- [ ] Como administrador, quero remover vínculo de contrato.
 
--   [ ] Como administrador, quero cadastrar contratos padrão do sistema
-    para que sejam utilizados nas negociações.
--   [ ] Como administrador, quero editar o conteúdo de um contrato
-    padrão para manter cláusulas atualizadas.
--   [ ] Como administrador, quero ativar ou inativar um contrato padrão
-    para controlar contratos vigentes.
--   [ ] Como administrador, quero relacionar contratos a um segmento
-    específico para manter coerência jurídica.
--   [ ] Como administrador, quero remover o relacionamento de um
-    contrato com um segmento quando não for mais aplicável.
+---
 
-------------------------------------------------------------------------
+## 4. Usuários
 
-### Gestão de Consultores
+- [ ] Como administrador, quero cadastrar usuário manualmente.
+- [ ] Como administrador, quero atribuir papéis (BUYER, SELLER, CONSULTANT, ADMIN).
+- [ ] Como administrador, quero alterar papéis.
+- [ ] Como administrador, quero bloquear usuário.
 
--   [ ] Como administrador, quero listar consultores cadastrados para
-    acompanhar minha equipe.
--   [ ] Como administrador, quero ativar (desbloquear) ou desativar
-    (bloquear) um consultor para controlar acesso à plataforma.
--   [ ] Como administrador, quero editar dados de um consultor para
-    manter informações atualizadas.
--   [ ] Como administrador, quero visualizar ativos atribuídos a um
-    consultor para acompanhar performance.
--   [ ] Como administrador, quero aprovar ou recusar a assinatura de
-    contrato de um consultor para liberar sua atuação.
+---
 
-------------------------------------------------------------------------
+## 5. Consultores
 
-### Gestão de Usuários e Permissões
+- [ ] Como administrador, quero listar consultores.
+- [ ] Como administrador, quero editar consultor.
+- [ ] Como administrador, quero ativar/inativar consultor.
+- [ ] Como administrador, quero aprovar contrato de consultor.
+- [ ] Como administrador, quero visualizar ativos por consultor.
+- [ ] Como administrador, quero visualizar desempenho do consultor.
 
--   [ ] Como administrador, quero cadastrar novos usuários manualmente
-    para conceder acesso ao sistema.
--   [ ] Como administrador, quero atribuir papéis (BUYER, SELLER,
-    CONSULTANT, ADMIN) para controlar permissões.
--   [ ] Como administrador, quero editar papéis de um usuário para
-    ajustar níveis de acesso.
--   [ ] Como administrador, quero bloquear um usuário para proteger a
-    plataforma.
+---
 
-------------------------------------------------------------------------
+## 6. Ativos
 
-### Lista de Pré-Cadastros Pendentes
+- [ ] Como administrador, quero visualizar pré-cadastros pendentes.
+- [ ] Como administrador, quero aprovar ativo.
+- [ ] Como administrador, quero recusar ativo informando motivo.
+- [ ] Como administrador, quero alterar status (ativo, suspenso, vendido).
+- [ ] Como administrador, quero visualizar conteúdo confidencial.
 
--   [ ] Como administrador, quero visualizar lista de ativos em análise
-    para revisar antes da publicação.
--   [ ] Como administrador, quero aprovar um ativo pré-cadastrado para
-    torná-lo público na plataforma.
--   [ ] Como administrador, quero recusar um ativo e informar o motivo
-    para orientar o consultor/usuário.
+---
 
-------------------------------------------------------------------------
+## 7. Negociações
 
-### Lista de Ativos
+- [ ] Como administrador, quero visualizar todas negociações.
+- [ ] Como administrador, quero auditar histórico completo.
+- [ ] Como administrador, quero visualizar chats.
+- [ ] Como administrador, quero validar fechamento.
+- [ ] Como administrador, quero marcar fechamento como pendente.
 
--   [ ] Como administrador, quero visualizar todos os ativos da
-    plataforma para ter controle global.
--   [ ] Como administrador, quero filtrar ativos por segmento, status ou
-    consultor para facilitar auditoria.
--   [ ] Como administrador, quero editar status de um ativo (ativo,
-    suspenso, vendido) para manter dados atualizados.
--   [ ] Como administrador, quero visualizar conteúdo confidencial
-    cadastrado em um ativo para auditoria.
+---
 
-------------------------------------------------------------------------
+## 8. Financeiro
 
-### Lista de Negociações
+- [ ] Como administrador, quero visualizar valores calculados automaticamente.
+- [ ] Como administrador, quero registrar pagamento manual.
+- [ ] Como administrador, quero registrar pagamento parcial.
+- [ ] Como administrador, quero confirmar pagamento.
+- [ ] Como administrador, quero recusar pagamento informado.
+- [ ] Como administrador, quero visualizar histórico completo por fechamento.
 
--   [ ] Como administrador, quero visualizar todas as negociações em
-    andamento para acompanhar o pipeline comercial.
--   [ ] Como administrador, quero ver histórico completo de uma
-    negociação (interesse, chat, visita, contratos) para auditoria e
-    rastreabilidade.
+---
 
-------------------------------------------------------------------------
+## 9. Relatórios
 
-### Visitas (Agendamentos)
+- [ ] Como administrador, quero visualizar resumo de comissões.
+- [ ] Como administrador, quero visualizar estatísticas de vendas.
+- [ ] Como administrador, quero visualizar relatório por período.
+- [ ] Como administrador, quero visualizar desempenho por consultor.
 
--   [ ] Como administrador, quero visualizar solicitações de visita por
-    negociação para auditoria.
--   [ ] Como administrador, quero aprovar uma solicitação de visita
-    quando necessário para apoiar o consultor.
--   [ ] Como administrador, quero acompanhar status de visitas aprovadas
-    e concluídas.
+---
 
-------------------------------------------------------------------------
+# CONSULTOR
 
-### Validação de Fechamentos
+**Alinhado ao fluxo do PDF** [⬅ ver mais detalhes...](./PDF/fluxograma-consultor.md)
 
--   [ ] Como administrador, quero visualizar negociações marcadas como
-    fechadas pelo consultor para validar o fechamento.
--   [ ] Como administrador, quero aprovar ou marcar como pendente um
-    fechamento para garantir controle financeiro.
--   [ ] Como administrador, quero visualizar os valores calculados
-    (comissão portal e fee consultor) para auditoria do cálculo.
+## 1. Registro e Contrato
 
-------------------------------------------------------------------------
+- [ ] Como consultor, quero me registrar na plataforma.
+- [ ] Como consultor, quero acompanhar status da assinatura.
+- [ ] Como consultor, quero assinar contrato.
+- [ ] Como consultor, quero acessar a plataforma apenas após aprovação.
 
-### Controle de Pagamentos (Manual e Auditável)
+---
 
--   [ ] Como administrador, quero registrar um pagamento manual
-    relacionado a um fechamento para manter controle financeiro
-    auditável.
--   [ ] Como administrador, quero registrar pagamentos parciais para
-    refletir a realidade de transações fracionadas.
--   [ ] Como administrador, quero marcar um pagamento como confirmado
-    para registrar que o pagamento foi verificado.
--   [ ] Como administrador, quero recusar um pagamento informado para
-    manter integridade do histórico.
--   [ ] Como administrador, quero visualizar o histórico completo de
-    pagamentos por fechamento para auditoria.
+## 2. Dashboard
 
-------------------------------------------------------------------------
+- [ ] Como consultor, quero visualizar ativos atribuídos.
+- [ ] Como consultor, quero editar conteúdo do ativo.
+- [ ] Como consultor, quero definir conteúdo confidencial.
+- [ ] Como consultor, quero visualizar visitas agendadas.
+- [ ] Como consultor, quero visualizar notificações.
 
-### Relatórios Financeiros
+---
 
--   [ ] Como administrador, quero visualizar resumo de comissões do
-    portal para acompanhar faturamento.
--   [ ] Como administrador, quero visualizar estatísticas de vendas para
-    tomada de decisão estratégica.
--   [ ] Como administrador, quero acessar gráficos de desempenho para
-    análise visual de resultados.
--   [ ] Como administrador, quero visualizar relatórios de pagamentos
-    manuais (por status e por período) para controle financeiro.
+## 3. Negociações
 
-------------------------------------------------------------------------
+- [ ] Como consultor, quero visualizar interessados.
+- [ ] Como consultor, quero iniciar conversa no chat.
+- [ ] Como consultor, quero registrar observações.
+- [ ] Como consultor, quero encerrar negociação informando motivo.
+- [ ] Como consultor, quero fechar negociação.
+- [ ] Como consultor, quero registrar fechamento.
 
-### Notificações
+---
 
--   [ ] Como administrador, quero visualizar notificações do sistema
-    para acompanhar eventos relevantes.
--   [ ] Como administrador, quero marcar notificações como lidas para
-    manter minha central organizada.
+## 4. Financeiro
 
-------------------------------------------------------------------------
+- [ ] Como consultor, quero visualizar comissões.
+- [ ] Como consultor, quero visualizar desempenho.
+- [ ] Como consultor, quero visualizar lista de fechamentos.
+- [ ] Como consultor, quero registrar pagamento recebido.
 
-## Consultor
+---
 
-(Conteúdo completo mantido conforme enviado pelo usuário)
+# COMPRADOR
 
-## Comprador
+**Alinhado ao fluxo do PDF** Comprador/Vendedor [⬅ ver mais detalhes...](./PDF/fluxograma-comprador-vendedor.md)
 
-(Conteúdo completo mantido conforme enviado pelo usuário)
 
-## Visitante
+## 1. Acesso
 
-(Conteúdo completo mantido conforme enviado pelo usuário)
+- [ ] Como comprador, quero me registrar.
+- [ ] Como comprador, quero recuperar senha.
+- [ ] Como comprador, quero acessar área restrita após login.
 
-## Vendedor
+---
 
-(Conteúdo completo mantido conforme enviado pelo usuário)
+## 2. Exploração de Ativos
+
+- [ ] Como comprador, quero visualizar lista de ativos.
+- [ ] Como comprador, quero filtrar por segmento.
+- [ ] Como comprador, quero ver ativos impulsionados primeiro.
+- [ ] Como comprador, quero visualizar detalhes públicos.
+- [ ] Como comprador, quero visualizar detalhes completos após autenticação.
+
+---
+
+## 3. Negociação
+
+- [ ] Como comprador, quero iniciar negociação.
+- [ ] Como comprador, quero conversar via chat com consultor.
+- [ ] Como comprador, quero acompanhar status.
+- [ ] Como comprador, quero solicitar visita.
+- [ ] Como comprador, quero receber notificações.
+
+---
+
+# VENDEDOR
+
+**Alinhado ao fluxo do PDF** Vendedor [⬅ ver mais detalhes...](./PDF/fluxograma-comprador-vendedor.md)
+
+
+## 1. Cadastro de Ativo
+
+- [ ] Como vendedor, quero iniciar pré-cadastro.
+- [ ] Como vendedor, quero preencher campos dinâmicos.
+- [ ] Como vendedor, quero anexar documentos.
+- [ ] Como vendedor, quero enviar para análise.
+- [ ] Como vendedor, quero acompanhar status.
+
+---
+
+## 2. Gestão
+
+- [ ] Como vendedor, quero visualizar meus ativos.
+- [ ] Como vendedor, quero editar ativo antes da aprovação.
+- [ ] Como vendedor, quero acompanhar negociações.
+- [ ] Como vendedor, quero receber notificação de interessados.
+
+---
+
+## 3. Impulsionamento (Fase 2)
+
+- [ ] Como vendedor, quero escolher plano de impulsionamento.
+- [ ] Como vendedor, quero realizar pagamento.
+- [ ] Como vendedor, quero visualizar destaque ativo.
+
+---
+
+# VISITANTE
+
+- [ ] Como visitante, quero visualizar lista de ativos.
+- [ ] Como visitante, quero filtrar por segmento.
+- [ ] Como visitante, quero visualizar detalhes públicos.
+- [ ] Como visitante, quero me registrar para acessar recursos completos.

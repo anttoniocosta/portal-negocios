@@ -1,7 +1,5 @@
 [🏠 Voltar para o README](../README.md)
 
-[🏠 Voltar para o README](../README.md)
-
 # Fluxos do Sistema
 
 Este documento descreve os fluxos principais da plataforma por perfil de usuário, refletindo:

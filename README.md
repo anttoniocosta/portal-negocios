@@ -31,10 +31,39 @@ A documentação completa está organizada nos arquivos abaixo:
 - 📌 [Planejamento do Projeto](DOC/planejamento.md)
 - 🏗️ [Arquitetura da Solução](DOC/arquitetura.md)
 - 🔄 [Fluxos do Sistema](DOC/fluxos.md)
+- 📝 [Funcionalidades](DOC/funcionalidades-user-stories.md)
 - 📝 [Escopo Detalhado](DOC/escopo-detalhado.md)
 - 📊 [Estimativas e Cronograma](DOC/estimativas-cronograma.md)
 
 ---
+
+### 📑 Fluxogramas (PDF)
+
+- 📄 [Administrador](DOC/PDF/fluxograma-administrador.pdf)
+- 📄 [Comprador / Vendedor](DOC/PDF/fluxograma-comprador-vendedor.pdf)
+- 📄 [Consultor](DOC/PDF/fluxograma-consultor.pdf)
+
+---
+
+### 📑 Diagramas (PDF)
+
+- 📄 [Modelo Relacional do Banco de Dados](DOC/PDF/modelo-relacional.pdf)
+- 📄 [Arquitetura de Comunicação entre Componentes](DOC/PDF/comunicacao-componentes-sistema.pdf)
+
+---
+
+### 📑 Protótipos
+
+<p align="left">
+  <a href="https://lovable.dev/projects/2410a376-d2bc-49bb-82f5-a6fdb6a6b8db">
+    <img src="./prototipo.jpg" alt="Protótipo Portal de Negócios" width="300">
+  </a>
+</p>
+
+🔗 Acesse o protótipo completo:  
+https://lovable.dev/projects/2410a376-d2bc-49bb-82f5-a6fdb6a6b8db
+---
+
 
 # 📌 Visão Geral do Projeto
 
@@ -55,7 +84,14 @@ O Portal de Negócios foi concebido para:
   arquitetura.md
   fluxos.md
   escopo-detalhado.md
+  funcionalidades-user-stories.md
   estimativas-cronograma.md
+  /PDF
+    fluxograma-administrador.pdf
+    fluxograma-comprador-vendedor.pdf
+    fluxograma-consultor.pdf
+    modelo-relacional.pdf
+    comunicacao-componentes-sistema.pdf
 
 README.md
 ```

@@ -10,9 +10,9 @@ Este documento descreve os fluxos principais da plataforma por perfil de usuári
 
 ### 📑 Fluxogramas (PDF)
 
-- 📄 [Administrador](DOC/PDF/fluxograma-administrador.pdf)
-- 📄 [Comprador / Vendedor](DOC/PDF/fluxograma-comprador-vendedor.pdf)
-- 📄 [Consultor](DOC/PDF/fluxograma-consultor.pdf)
+- 📄 [Administrador](./PDF/fluxograma-administrador.pdf)
+- 📄 [Comprador / Vendedor](./PDF/fluxograma-comprador-vendedor.pdf)
+- 📄 [Consultor](./PDF/fluxograma-consultor.pdf)
 
 ---
 

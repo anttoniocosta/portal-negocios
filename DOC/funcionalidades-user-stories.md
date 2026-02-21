@@ -8,7 +8,7 @@ Este documento descreve as funcionalidades do sistema organizadas por perfil de 
 ---
 
 # ADMINISTRADOR
-**Alinhado ao fluxo do PDF** [⬅ ver mais detalhes...](./PDF/fluxograma-administra.pdf)
+**Alinhado ao fluxo do PDF** [⬅ ver mais detalhes...](./PDF/fluxograma-administrador.pdf)
 
 
 ## 1. Segmentos

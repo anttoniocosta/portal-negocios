@@ -220,6 +220,8 @@ Este documento descreve as funcionalidades do sistema organizadas por perfil de 
 
 # VISITANTE
 
+**Alinhado ao fluxo do PDF** Visitante [⬅ ver mais detalhes...](./PDF/fluxograma-visitante.pdf)
+
 - [ ] Como visitante, quero visualizar lista de ativos.
 - [ ] Como visitante, quero filtrar por segmento.
 - [ ] Como visitante, quero visualizar detalhes públicos.

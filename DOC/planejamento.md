@@ -148,7 +148,7 @@ O MVP da Fase 1 deverá conter:
 - Validação administrativa
 - Cálculo simples de comissão
 
-## Postergado para Fase 2
+## Postergado para Futuras Fases
 
 - Relatórios avançados
 - Dashboard financeiro expandido

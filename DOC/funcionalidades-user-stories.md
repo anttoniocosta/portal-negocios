@@ -8,7 +8,7 @@ Este documento descreve as funcionalidades do sistema organizadas por perfil de 
 ---
 
 # ADMINISTRADOR
-**Alinhado ao fluxo do PDF** [⬅ ver mais detalhes...](./PDF/fluxograma-administra.md)
+**Alinhado ao fluxo do PDF** [⬅ ver mais detalhes...](./PDF/fluxograma-administra.pdf)
 
 
 ## 1. Segmentos
@@ -112,7 +112,7 @@ Este documento descreve as funcionalidades do sistema organizadas por perfil de 
 
 # CONSULTOR
 
-**Alinhado ao fluxo do PDF** [⬅ ver mais detalhes...](./PDF/fluxograma-consultor.md)
+**Alinhado ao fluxo do PDF** [⬅ ver mais detalhes...](./PDF/fluxograma-consultor.pdf)
 
 ## 1. Registro e Contrato
 
@@ -155,7 +155,7 @@ Este documento descreve as funcionalidades do sistema organizadas por perfil de 
 
 # COMPRADOR
 
-**Alinhado ao fluxo do PDF** Comprador/Vendedor [⬅ ver mais detalhes...](./PDF/fluxograma-comprador-vendedor.md)
+**Alinhado ao fluxo do PDF** Comprador/Vendedor [⬅ ver mais detalhes...](./PDF/fluxograma-comprador-vendedor.pdf)
 
 
 ## 1. Acesso
@@ -188,7 +188,7 @@ Este documento descreve as funcionalidades do sistema organizadas por perfil de 
 
 # VENDEDOR
 
-**Alinhado ao fluxo do PDF** Vendedor [⬅ ver mais detalhes...](./PDF/fluxograma-comprador-vendedor.md)
+**Alinhado ao fluxo do PDF** Vendedor [⬅ ver mais detalhes...](./PDF/fluxograma-comprador-vendedor.pdf)
 
 
 ## 1. Cadastro de Ativo

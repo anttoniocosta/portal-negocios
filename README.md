@@ -48,7 +48,7 @@ A documentação completa está organizada nos arquivos abaixo:
 ### 📑 Diagramas (PDF)
 
 - 📄 [Modelo Relacional do Banco de Dados](DOC/PDF/modelo-relacional.pdf)
-- 📄 [Arquitetura de Comunicação entre Componentes](DOC/PDF/comunicao-componentes-sistema.pdf)
+- 📄 [Arquitetura de Comunicação entre Componentes](DOC/PDF/comunicacao-componentes-sistema.pdf)
 
 ---
 

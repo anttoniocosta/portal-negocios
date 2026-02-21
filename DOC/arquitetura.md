@@ -201,7 +201,7 @@ Frontend ↔ WebSocket ↔ Backend
 
 Todas as comunicações ocorrerão via HTTPS seguro.
 
-**Diagrama:** Arquitetura de Comunicação entre Componentes [⬅ ver mais detalhes...](./PDF/comunicao-componentes-sistema.md)
+**Diagrama:** Arquitetura de Comunicação entre Componentes [⬅ ver mais detalhes...](./PDF/comunicacao-componentes-sistema.md)
 
 ---
 

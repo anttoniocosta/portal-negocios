@@ -52,6 +52,19 @@ A documentação completa está organizada nos arquivos abaixo:
 
 ---
 
+### 📑 Protótipos
+
+<p align="left">
+  <a href="https://lovable.dev/projects/2410a376-d2bc-49bb-82f5-a6fdb6a6b8db">
+    <img src="./prototipo.jpg" alt="Protótipo Portal de Negócios" width="300">
+  </a>
+</p>
+
+🔗 Acesse o protótipo completo:  
+https://lovable.dev/projects/2410a376-d2bc-49bb-82f5-a6fdb6a6b8db
+---
+
+
 # 📌 Visão Geral do Projeto
 
 O Portal de Negócios foi concebido para:
@@ -71,7 +84,14 @@ O Portal de Negócios foi concebido para:
   arquitetura.md
   fluxos.md
   escopo-detalhado.md
+  funcionalidades-user-stories.md
   estimativas-cronograma.md
+  /PDF
+    fluxograma-administrador.pdf
+    fluxograma-comprador-vendedor.pdf
+    fluxograma-consultor.pdf
+    modelo-relacional.pdf
+    comunicacao-componentes-sistema.pdf
 
 README.md
 ```
